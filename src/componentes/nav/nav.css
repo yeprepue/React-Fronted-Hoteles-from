@@ -1,0 +1,42 @@
+.navbar{
+  background-image: linear-gradient(to right, #577de79c , #a5aa76b7);
+
+}
+.search  {
+  border-radius: 2px;
+  border: 2px solid #202329;
+  margin: 20px 24px;
+  height: 64px;
+  width: calc(100% - 62px);
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #1E1E1F;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+}
+
+
+
+.search:focus {
+  outline-color: #61DAFA;
+}
+.search-h2{  
+  font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: 400
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-md-4 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 5px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,13 @@
+.App {
+  font-family: 'Oxygen', sans-serif;
+  height: auto;
+  background: rgba(233, 211, 10, 0.699);
+  background: linear-gradient(
+    180deg,
+    rgba(74, 218, 206, 0.651) 0%,
+    rgb(44, 129, 199) 15%,
+    rgb(159, 209, 236) 30%,
+    rgba(247, 255, 175, 0.521) 45%,
+    rgba(229, 233, 15, 0.486) 100%
+  );
+}
