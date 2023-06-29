@@ -1,4 +1,5 @@
-![image](https://github.com/yeprepue/React-Fronted-Hoteles-from/assets/43614257/f6a3bc71-44be-405a-a216-802584bd007f)
+![image](https://github.com/yeprepue/React-Fronted-Hoteles-from/assets/43614257/7bd61f0e-e1df-4005-a300-2b458fc7adeb)
+
 
 # Getting Started with Create React App
 
