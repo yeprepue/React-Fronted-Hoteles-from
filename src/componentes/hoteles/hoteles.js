@@ -45,6 +45,7 @@ const Hoteles = ({ filtro }) => {
       setIsLoading(false);
     }
   };
+  
 
   if (isLoading) {
     return <div>Cargando...</div>;
@@ -58,7 +59,7 @@ const Hoteles = ({ filtro }) => {
     
       <div className="row">
         {data.map((hotel) => (
-          <div className="col-md-4 col-sm-6" key={hotel.id}>
+          <div className="col-md-4 col-12" key={hotel.id}>
             <Card nombre={hotel.nombre} imagen={hotel.imagen} opiniones={hotel.opiniones} url={hotel.url}/>
           </div>
         ))}

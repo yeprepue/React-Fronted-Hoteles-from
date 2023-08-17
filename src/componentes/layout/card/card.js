@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 function Card({ nombre, imagen, opiniones, url }) {
     const imagePath = require(`../../../assets/${imagen}`);
     return (
-        <div className="card text-center  animate__animated animate__fadeInUp">
+        <div className="card  text-center animate__animated animate__fadeInUp">
             <div className="overflow">
                 <img src={imagePath} alt="a wallpaper" className="card-img-top" />
             </div>
